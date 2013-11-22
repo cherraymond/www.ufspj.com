@@ -8,7 +8,6 @@ body {
 =======
     background-color: rgb(9,28,54); 
     font-family: helvetica, arial, sans-serif;    
-}
 >>>>>>> master
 
 img { width: 100%; }
@@ -61,6 +60,11 @@ section {
     width: 50%;
 }
 
+.column2of2, h1 + a {
+    width: 20%;
+}
+                              
+
 article {
     border-bottom: 1px solid gray;
 }
@@ -88,8 +92,21 @@ a {
 p a {
     font-weight:500;
 }
+.column1of2 {
+    float: left;
+    width: 50%;
+    margin: 10px;
+}
+.column2of2 {
+    float: left;
+    width: 20%;
+    margin: 10px;
+}
 .twitter-timeline {
-    width: 100%
+    width: auto;
+}
+
+}
 >>>>>>> master
 }
 
